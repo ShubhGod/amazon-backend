@@ -2,7 +2,7 @@ import pandas as pd
 from app.core.logger import logger
 
 # EXCEL_PATH = "/home/mohit/Desktop/asvaai/amazon/backend/data/prod_source_scores_normalized.xlsx"
-EXCEL_PATH = "./data/prod_source_scores_normalized.xlsx"
+EXCEL_PATH = ".prod_source_scores_normalized.xlsx"
 
 
 def get_category_winners():
