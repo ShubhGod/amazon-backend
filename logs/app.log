@@ -1,0 +1,1166 @@
+2025-11-03 23:56:18 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:56:18 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-03 23:56:18 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-03 23:56:18 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-03 23:56:18 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-03 23:56:18 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:56:18 - aeo_geo_dashboard - ERROR - ✗ Failed to load data on startup: No module named 'services'
+2025-11-03 23:57:03 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-03 23:57:03 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:57:06 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-03 23:57:06 - aeo_geo_dashboard - ERROR - Error loading Excel: [Errno 2] No such file or directory: '/home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx'
+2025-11-03 23:57:06 - aeo_geo_dashboard - ERROR - ✗ Failed to load data on startup: [Errno 2] No such file or directory: '/home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx'
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-03 23:58:27 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/amazon.xlsx
+2025-11-03 23:58:29 - aeo_geo_dashboard - INFO - Loaded 4883 rows | 2157 unique prompts
+2025-11-03 23:58:29 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-03 23:58:39 - aeo_geo_dashboard - INFO - [req-1762194519402] GET / | Client: 127.0.0.1
+2025-11-03 23:58:39 - aeo_geo_dashboard - INFO - [req-1762194519402] GET / | Status: 200 | Duration: 0.00s
+2025-11-03 23:58:45 - aeo_geo_dashboard - INFO - [req-1762194525543] GET /docs | Client: 127.0.0.1
+2025-11-03 23:58:45 - aeo_geo_dashboard - INFO - [req-1762194525543] GET /docs | Status: 200 | Duration: 0.00s
+2025-11-03 23:58:45 - aeo_geo_dashboard - INFO - [req-1762194525960] GET /openapi.json | Client: 127.0.0.1
+2025-11-03 23:58:46 - aeo_geo_dashboard - INFO - [req-1762194525960] GET /openapi.json | Status: 200 | Duration: 0.04s
+2025-11-03 23:58:57 - aeo_geo_dashboard - INFO - [req-1762194537758] GET /health | Client: 127.0.0.1
+2025-11-03 23:58:57 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-03 23:58:57 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-03 23:58:57 - aeo_geo_dashboard - INFO - [req-1762194537758] GET /health | Status: 200 | Duration: 0.00s
+2025-11-03 23:59:15 - aeo_geo_dashboard - INFO - [req-1762194555837] GET / | Client: 127.0.0.1
+2025-11-03 23:59:15 - aeo_geo_dashboard - INFO - [req-1762194555837] GET / | Status: 200 | Duration: 0.00s
+2025-11-03 23:59:23 - aeo_geo_dashboard - INFO - [req-1762194563378] GET /info | Client: 127.0.0.1
+2025-11-03 23:59:23 - aeo_geo_dashboard - INFO - [req-1762194563378] GET /info | Status: 200 | Duration: 0.00s
+2025-11-03 23:59:38 - aeo_geo_dashboard - INFO - [req-1762194578814] GET /dashboard/home | Client: 127.0.0.1
+2025-11-03 23:59:38 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-03 23:59:42 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-03 23:59:42 - aeo_geo_dashboard - INFO - [req-1762194578814] GET /dashboard/home | Status: 200 | Duration: 4.13s
+2025-11-04 00:00:12 - aeo_geo_dashboard - INFO - [req-1762194612287] GET /docs | Client: 127.0.0.1
+2025-11-04 00:00:12 - aeo_geo_dashboard - INFO - [req-1762194612287] GET /docs | Status: 200 | Duration: 0.00s
+2025-11-04 00:00:12 - aeo_geo_dashboard - INFO - [req-1762194612444] GET /openapi.json | Client: 127.0.0.1
+2025-11-04 00:00:12 - aeo_geo_dashboard - INFO - [req-1762194612444] GET /openapi.json | Status: 200 | Duration: 0.00s
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 01:52:57 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/amazon.xlsx
+2025-11-04 01:52:59 - aeo_geo_dashboard - INFO - Loaded 4883 rows | 2157 unique prompts
+2025-11-04 01:52:59 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 01:56:45 - aeo_geo_dashboard - INFO - [req-1762201605292] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:56:45 - aeo_geo_dashboard - INFO - [req-1762201605295] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:56:45 - aeo_geo_dashboard - INFO - [req-1762201605292] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:56:45 - aeo_geo_dashboard - INFO - [req-1762201605295] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:56:51 - aeo_geo_dashboard - INFO - [req-1762201611620] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:56:51 - aeo_geo_dashboard - INFO - [req-1762201611623] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:56:51 - aeo_geo_dashboard - INFO - [req-1762201611620] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:56:51 - aeo_geo_dashboard - INFO - [req-1762201611623] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:56:53 - aeo_geo_dashboard - INFO - [req-1762201613634] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:56:53 - aeo_geo_dashboard - INFO - [req-1762201613634] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:56:53 - aeo_geo_dashboard - INFO - [req-1762201613641] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:56:53 - aeo_geo_dashboard - INFO - [req-1762201613641] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:01 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 01:57:01 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 01:57:11 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/amazon.xlsx
+2025-11-04 01:57:13 - aeo_geo_dashboard - INFO - Loaded 4883 rows | 2157 unique prompts
+2025-11-04 01:57:13 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 01:57:38 - aeo_geo_dashboard - INFO - [req-1762201658797] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:57:38 - aeo_geo_dashboard - INFO - [req-1762201658799] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:57:38 - aeo_geo_dashboard - INFO - [req-1762201658797] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:38 - aeo_geo_dashboard - INFO - [req-1762201658799] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:39 - aeo_geo_dashboard - INFO - [req-1762201659806] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:57:39 - aeo_geo_dashboard - INFO - [req-1762201659806] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:39 - aeo_geo_dashboard - INFO - [req-1762201659823] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:57:39 - aeo_geo_dashboard - INFO - [req-1762201659823] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:41 - aeo_geo_dashboard - INFO - [req-1762201661813] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:57:41 - aeo_geo_dashboard - INFO - [req-1762201661813] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:41 - aeo_geo_dashboard - INFO - [req-1762201661830] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:57:41 - aeo_geo_dashboard - INFO - [req-1762201661830] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:45 - aeo_geo_dashboard - INFO - [req-1762201665819] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:57:45 - aeo_geo_dashboard - INFO - [req-1762201665819] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:57:45 - aeo_geo_dashboard - INFO - [req-1762201665839] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:57:45 - aeo_geo_dashboard - INFO - [req-1762201665839] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:24 - aeo_geo_dashboard - INFO - [req-1762201704831] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:58:24 - aeo_geo_dashboard - INFO - [req-1762201704832] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:58:24 - aeo_geo_dashboard - INFO - [req-1762201704831] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:24 - aeo_geo_dashboard - INFO - [req-1762201704832] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:25 - aeo_geo_dashboard - INFO - [req-1762201705847] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:58:25 - aeo_geo_dashboard - INFO - [req-1762201705847] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:25 - aeo_geo_dashboard - INFO - [req-1762201705851] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:58:25 - aeo_geo_dashboard - INFO - [req-1762201705851] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:27 - aeo_geo_dashboard - INFO - [req-1762201707855] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:58:27 - aeo_geo_dashboard - INFO - [req-1762201707855] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:27 - aeo_geo_dashboard - INFO - [req-1762201707859] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:58:27 - aeo_geo_dashboard - INFO - [req-1762201707859] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:31 - aeo_geo_dashboard - INFO - [req-1762201711865] GET /api/health | Client: 127.0.0.1
+2025-11-04 01:58:31 - aeo_geo_dashboard - INFO - [req-1762201711865] GET /api/health | Status: 404 | Duration: 0.00s
+2025-11-04 01:58:31 - aeo_geo_dashboard - INFO - [req-1762201711867] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 01:58:31 - aeo_geo_dashboard - INFO - [req-1762201711867] GET /api/dashboard/home | Status: 404 | Duration: 0.00s
+2025-11-04 02:00:38 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 02:00:38 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 02:01:54 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/amazon.xlsx
+2025-11-04 02:01:56 - aeo_geo_dashboard - INFO - Loaded 4883 rows | 2157 unique prompts
+2025-11-04 02:01:56 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 02:02:11 - aeo_geo_dashboard - INFO - [req-1762201931852] GET /api/health | Client: 127.0.0.1
+2025-11-04 02:02:11 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:02:11 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 02:02:11 - aeo_geo_dashboard - INFO - [req-1762201931855] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 02:02:11 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:02:16 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 02:02:16 - aeo_geo_dashboard - INFO - [req-1762201931852] GET /api/health | Status: 200 | Duration: 4.28s
+2025-11-04 02:02:16 - aeo_geo_dashboard - INFO - [req-1762201931855] GET /api/dashboard/home | Status: 200 | Duration: 4.27s
+2025-11-04 02:03:42 - aeo_geo_dashboard - INFO - [req-1762202022597] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:03:42 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 02:07:18 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - [req-1762202268254] GET /api/health | Client: 127.0.0.1
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - [req-1762202268257] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - [req-1762202268254] GET /api/health | Status: 200 | Duration: 0.12s
+2025-11-04 02:07:48 - aeo_geo_dashboard - INFO - [req-1762202268257] GET /api/dashboard/home | Status: 200 | Duration: 0.12s
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - [req-1762202298607] GET /api/health | Client: 127.0.0.1
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - [req-1762202298610] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - [req-1762202298607] GET /api/health | Status: 200 | Duration: 0.14s
+2025-11-04 02:08:18 - aeo_geo_dashboard - INFO - [req-1762202298610] GET /api/dashboard/home | Status: 200 | Duration: 0.14s
+2025-11-04 02:08:21 - aeo_geo_dashboard - INFO - [req-1762202301171] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:21 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:21 - aeo_geo_dashboard - INFO - [req-1762202301171] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:22 - aeo_geo_dashboard - INFO - [req-1762202302184] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:22 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:22 - aeo_geo_dashboard - INFO - [req-1762202302184] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:24 - aeo_geo_dashboard - INFO - [req-1762202304194] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:24 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:24 - aeo_geo_dashboard - INFO - [req-1762202304194] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - [req-1762202305526] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - [req-1762202305526] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - [req-1762202305731] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - [req-1762202305731] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - [req-1762202305918] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:25 - aeo_geo_dashboard - INFO - [req-1762202305918] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:26 - aeo_geo_dashboard - INFO - [req-1762202306490] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:26 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:26 - aeo_geo_dashboard - INFO - [req-1762202306490] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:26 - aeo_geo_dashboard - INFO - [req-1762202306624] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:26 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:26 - aeo_geo_dashboard - INFO - [req-1762202306624] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307119] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307119] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307428] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307428] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307682] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307682] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307806] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307806] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307967] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:27 - aeo_geo_dashboard - INFO - [req-1762202307967] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308181] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308181] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308319] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308319] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308475] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308475] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308658] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:28 - aeo_geo_dashboard - INFO - [req-1762202308658] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:29 - aeo_geo_dashboard - INFO - [req-1762202309667] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:29 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:29 - aeo_geo_dashboard - INFO - [req-1762202309667] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:30 - aeo_geo_dashboard - INFO - [req-1762202310107] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:30 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:30 - aeo_geo_dashboard - INFO - [req-1762202310107] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:30 - aeo_geo_dashboard - INFO - [req-1762202310680] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:30 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:30 - aeo_geo_dashboard - INFO - [req-1762202310680] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:31 - aeo_geo_dashboard - INFO - [req-1762202311691] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:31 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:31 - aeo_geo_dashboard - INFO - [req-1762202311691] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:33 - aeo_geo_dashboard - INFO - [req-1762202313701] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:33 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:33 - aeo_geo_dashboard - INFO - [req-1762202313701] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:37 - aeo_geo_dashboard - INFO - [req-1762202317712] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 02:08:37 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:37 - aeo_geo_dashboard - INFO - [req-1762202317712] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 02:08:58 - aeo_geo_dashboard - INFO - [req-1762202338356] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:08:58 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:08:59 - aeo_geo_dashboard - INFO - Explore dashboard generated with 99 rows
+2025-11-04 02:08:59 - aeo_geo_dashboard - INFO - [req-1762202338356] GET /api/dashboard/explore | Status: 200 | Duration: 0.81s
+2025-11-04 02:10:49 - aeo_geo_dashboard - INFO - [req-1762202449575] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:10:49 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:10:49 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 02:10:49 - aeo_geo_dashboard - INFO - [req-1762202449575] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 02:10:52 - aeo_geo_dashboard - INFO - [req-1762202452292] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:10:52 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:10:52 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 02:10:52 - aeo_geo_dashboard - INFO - [req-1762202452292] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 02:10:53 - aeo_geo_dashboard - INFO - [req-1762202453669] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:10:53 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:10:53 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 02:10:53 - aeo_geo_dashboard - INFO - [req-1762202453669] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 02:10:55 - aeo_geo_dashboard - INFO - [req-1762202455109] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:10:55 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:10:55 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 02:10:55 - aeo_geo_dashboard - INFO - [req-1762202455109] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 02:10:56 - aeo_geo_dashboard - INFO - [req-1762202456013] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:10:56 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:10:56 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 02:10:56 - aeo_geo_dashboard - INFO - [req-1762202456013] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 02:10:57 - aeo_geo_dashboard - INFO - [req-1762202457410] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 02:10:57 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 02:10:57 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 02:10:57 - aeo_geo_dashboard - INFO - [req-1762202457410] GET /api/dashboard/explore | Status: 200 | Duration: 0.15s
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 10:42:23 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - [req-1762233293593] GET /api/health | Client: 127.0.0.1
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - [req-1762233293596] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - [req-1762233293593] GET /api/health | Status: 200 | Duration: 0.18s
+2025-11-04 10:44:53 - aeo_geo_dashboard - INFO - [req-1762233293596] GET /api/dashboard/home | Status: 200 | Duration: 0.18s
+2025-11-04 11:01:44 - aeo_geo_dashboard - INFO - [req-1762234304097] GET /docs | Client: 127.0.0.1
+2025-11-04 11:01:44 - aeo_geo_dashboard - INFO - [req-1762234304097] GET /docs | Status: 200 | Duration: 0.00s
+2025-11-04 11:01:45 - aeo_geo_dashboard - INFO - [req-1762234305164] GET /openapi.json | Client: 127.0.0.1
+2025-11-04 11:01:45 - aeo_geo_dashboard - INFO - [req-1762234305164] GET /openapi.json | Status: 200 | Duration: 0.02s
+2025-11-04 11:01:51 - aeo_geo_dashboard - INFO - [req-1762234311917] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 11:01:51 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 11:01:52 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 11:01:52 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 11:01:52 - aeo_geo_dashboard - INFO - [req-1762234311917] GET /api/dashboard/home | Status: 200 | Duration: 0.23s
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - [req-1762234334648] GET /api/health | Client: 127.0.0.1
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - [req-1762234334649] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - [req-1762234334648] GET /api/health | Status: 200 | Duration: 0.11s
+2025-11-04 11:02:14 - aeo_geo_dashboard - INFO - [req-1762234334649] GET /api/dashboard/home | Status: 200 | Duration: 0.11s
+2025-11-04 11:11:12 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 11:11:12 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 11:11:13 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 11:12:11 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 11:12:11 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 11:17:56 - aeo_geo_dashboard - INFO - [req-1762235276895] GET /api/health | Client: 127.0.0.1
+2025-11-04 11:17:56 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - [req-1762235277020] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - [req-1762235276895] GET /api/health | Status: 200 | Duration: 0.22s
+2025-11-04 11:17:57 - aeo_geo_dashboard - INFO - [req-1762235277020] GET /api/dashboard/home | Status: 200 | Duration: 0.10s
+2025-11-04 11:19:47 - aeo_geo_dashboard - INFO - [req-1762235387087] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 11:19:47 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:19:47 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 11:19:47 - aeo_geo_dashboard - INFO - [req-1762235387087] GET /api/dashboard/explore | Status: 200 | Duration: 0.13s
+2025-11-04 11:20:35 - aeo_geo_dashboard - INFO - [req-1762235435916] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 11:20:35 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:35 - aeo_geo_dashboard - INFO - [req-1762235435916] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 11:20:36 - aeo_geo_dashboard - INFO - [req-1762235436930] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 11:20:36 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:36 - aeo_geo_dashboard - INFO - [req-1762235436930] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 11:20:38 - aeo_geo_dashboard - INFO - [req-1762235438942] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 11:20:38 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:38 - aeo_geo_dashboard - INFO - [req-1762235438942] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - [req-1762235444321] GET /api/health | Client: 127.0.0.1
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - [req-1762235444321] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - [req-1762235444333] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:44 - aeo_geo_dashboard - INFO - [req-1762235444333] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - [req-1762235445670] GET /api/dashboard/compare | Client: 127.0.0.1
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - [req-1762235445672] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - [req-1762235445670] GET /api/dashboard/compare | Status: 404 | Duration: 0.00s
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 11:20:45 - aeo_geo_dashboard - INFO - [req-1762235445672] GET /api/dashboard/explore | Status: 200 | Duration: 0.12s
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - [req-1762238524175] GET /api/health | Client: 127.0.0.1
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - [req-1762238524330] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - [req-1762238524175] GET /api/health | Status: 200 | Duration: 0.22s
+2025-11-04 12:12:04 - aeo_geo_dashboard - INFO - [req-1762238524330] GET /api/dashboard/explore | Status: 200 | Duration: 0.07s
+2025-11-04 12:12:11 - aeo_geo_dashboard - INFO - [req-1762238531416] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 12:12:11 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:12:11 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 12:12:11 - aeo_geo_dashboard - INFO - [req-1762238531416] GET /api/dashboard/home | Status: 200 | Duration: 0.15s
+2025-11-04 12:18:06 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 12:18:06 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 12:18:08 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 12:18:09 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 12:18:09 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 12:18:12 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 12:18:12 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 12:18:13 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - [req-1762238906026] GET /api/health | Client: 127.0.0.1
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - [req-1762238906029] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - [req-1762238906026] GET /api/health | Status: 200 | Duration: 0.13s
+2025-11-04 12:18:26 - aeo_geo_dashboard - INFO - [req-1762238906029] GET /api/dashboard/home | Status: 200 | Duration: 0.12s
+2025-11-04 12:23:50 - aeo_geo_dashboard - INFO - [req-1762239230783] GET /api/health | Client: 127.0.0.1
+2025-11-04 12:23:50 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 12:23:50 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 12:23:50 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 12:23:50 - aeo_geo_dashboard - INFO - [req-1762239230909] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 12:23:50 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:23:51 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 12:23:51 - aeo_geo_dashboard - INFO - [req-1762239230783] GET /api/health | Status: 200 | Duration: 0.22s
+2025-11-04 12:23:51 - aeo_geo_dashboard - INFO - [req-1762239230909] GET /api/dashboard/home | Status: 200 | Duration: 0.10s
+2025-11-04 12:26:06 - aeo_geo_dashboard - INFO - [req-1762239366187] GET /api/health | Client: 127.0.0.1
+2025-11-04 12:26:06 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:26:06 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 12:26:06 - aeo_geo_dashboard - INFO - [req-1762239366187] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 12:27:03 - aeo_geo_dashboard - INFO - [req-1762239423913] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:03 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:04 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 12:27:04 - aeo_geo_dashboard - INFO - [req-1762239423913] GET /api/dashboard/explore | Status: 200 | Duration: 0.16s
+2025-11-04 12:27:11 - aeo_geo_dashboard - INFO - [req-1762239431561] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:11 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:11 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:11 - aeo_geo_dashboard - INFO - [req-1762239431561] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 12:27:13 - aeo_geo_dashboard - INFO - [req-1762239433508] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:13 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:13 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:13 - aeo_geo_dashboard - INFO - [req-1762239433508] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:34 - aeo_geo_dashboard - INFO - [req-1762239454216] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:34 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:34 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:34 - aeo_geo_dashboard - INFO - [req-1762239454216] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 12:27:35 - aeo_geo_dashboard - INFO - [req-1762239455988] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:35 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:35 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:35 - aeo_geo_dashboard - INFO - [req-1762239455988] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:37 - aeo_geo_dashboard - INFO - [req-1762239457281] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:37 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:37 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:37 - aeo_geo_dashboard - INFO - [req-1762239457281] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:37 - aeo_geo_dashboard - INFO - [req-1762239457997] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:38 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:38 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:38 - aeo_geo_dashboard - INFO - [req-1762239457997] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:38 - aeo_geo_dashboard - INFO - [req-1762239458861] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:38 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:38 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:38 - aeo_geo_dashboard - INFO - [req-1762239458861] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 12:27:39 - aeo_geo_dashboard - INFO - [req-1762239459929] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:39 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:39 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:39 - aeo_geo_dashboard - INFO - [req-1762239459929] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:40 - aeo_geo_dashboard - INFO - [req-1762239460719] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:40 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:40 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:40 - aeo_geo_dashboard - INFO - [req-1762239460719] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:41 - aeo_geo_dashboard - INFO - [req-1762239461516] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:41 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:41 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:27:41 - aeo_geo_dashboard - INFO - [req-1762239461516] GET /api/dashboard/explore | Status: 200 | Duration: 0.01s
+2025-11-04 12:27:53 - aeo_geo_dashboard - INFO - [req-1762239473666] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:27:53 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:27:54 - aeo_geo_dashboard - INFO - Explore dashboard generated with 99 rows
+2025-11-04 12:27:54 - aeo_geo_dashboard - INFO - [req-1762239473666] GET /api/dashboard/explore | Status: 200 | Duration: 1.08s
+2025-11-04 12:28:10 - aeo_geo_dashboard - INFO - [req-1762239490364] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:28:10 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:28:10 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:28:10 - aeo_geo_dashboard - INFO - [req-1762239490364] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 12:28:14 - aeo_geo_dashboard - INFO - [req-1762239494850] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:28:14 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:28:14 - aeo_geo_dashboard - WARNING - No data after applying filters
+2025-11-04 12:28:14 - aeo_geo_dashboard - INFO - [req-1762239494850] GET /api/dashboard/explore | Status: 200 | Duration: 0.00s
+2025-11-04 12:28:45 - aeo_geo_dashboard - INFO - [req-1762239525633] GET /api/health | Client: 127.0.0.1
+2025-11-04 12:28:45 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:28:45 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 12:28:45 - aeo_geo_dashboard - INFO - [req-1762239525633] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 12:29:23 - aeo_geo_dashboard - INFO - [req-1762239563694] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 12:29:23 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 12:29:23 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 12:29:24 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 12:29:24 - aeo_geo_dashboard - INFO - [req-1762239563694] GET /api/dashboard/home | Status: 200 | Duration: 0.33s
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - [req-1762240915156] GET /api/health | Client: 127.0.0.1
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - [req-1762240915368] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - [req-1762240915156] GET /api/health | Status: 200 | Duration: 0.21s
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 12:51:55 - aeo_geo_dashboard - INFO - [req-1762240915368] GET /api/dashboard/home | Status: 200 | Duration: 0.13s
+2025-11-04 12:51:59 - aeo_geo_dashboard - INFO - [req-1762240919328] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 12:51:59 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 12:51:59 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 12:51:59 - aeo_geo_dashboard - INFO - [req-1762240919328] GET /api/dashboard/explore | Status: 200 | Duration: 0.14s
+2025-11-04 13:48:37 - aeo_geo_dashboard - INFO - [req-1762244317806] GET /api/health | Client: 127.0.0.1
+2025-11-04 13:48:37 - aeo_geo_dashboard - INFO - [req-1762244317807] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 13:48:37 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 13:48:37 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 13:48:37 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 13:48:37 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:48:38 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 13:48:38 - aeo_geo_dashboard - INFO - [req-1762244317806] GET /api/health | Status: 200 | Duration: 0.25s
+2025-11-04 13:48:38 - aeo_geo_dashboard - INFO - [req-1762244317807] GET /api/dashboard/explore | Status: 200 | Duration: 0.25s
+2025-11-04 13:50:49 - aeo_geo_dashboard - INFO - [req-1762244449080] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 13:50:49 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:50:49 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 13:50:49 - aeo_geo_dashboard - INFO - [req-1762244449080] GET /api/dashboard/home | Status: 200 | Duration: 0.12s
+2025-11-04 13:52:00 - aeo_geo_dashboard - INFO - [req-1762244520572] GET /api/health | Client: 127.0.0.1
+2025-11-04 13:52:00 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:52:00 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 13:52:00 - aeo_geo_dashboard - INFO - [req-1762244520572] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - [req-1762244542330] GET /api/health | Client: 127.0.0.1
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - [req-1762244542333] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - [req-1762244542330] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 13:52:22 - aeo_geo_dashboard - INFO - [req-1762244542333] GET /api/dashboard/home | Status: 200 | Duration: 0.16s
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - [req-1762244801485] GET /api/health | Client: 127.0.0.1
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - [req-1762244801663] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - [req-1762244801485] GET /api/health | Status: 200 | Duration: 0.33s
+2025-11-04 13:56:41 - aeo_geo_dashboard - INFO - [req-1762244801663] GET /api/dashboard/home | Status: 200 | Duration: 0.16s
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - [req-1762244895144] GET /api/health | Client: 127.0.0.1
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - [req-1762244895146] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - [req-1762244895144] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 13:58:15 - aeo_geo_dashboard - INFO - [req-1762244895146] GET /api/dashboard/home | Status: 200 | Duration: 0.13s
+2025-11-04 14:01:19 - aeo_geo_dashboard - INFO - [req-1762245079920] GET /api/health | Client: 127.0.0.1
+2025-11-04 14:01:19 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 14:01:19 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 14:01:19 - aeo_geo_dashboard - INFO - [req-1762245079920] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 14:09:43 - aeo_geo_dashboard - INFO - [req-1762245583930] GET /api/health | Client: 127.0.0.1
+2025-11-04 14:09:43 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - [req-1762245584066] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - [req-1762245583930] GET /api/health | Status: 200 | Duration: 0.14s
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 14:09:44 - aeo_geo_dashboard - INFO - [req-1762245584066] GET /api/dashboard/home | Status: 200 | Duration: 0.11s
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - [req-1762246707491] GET /api/health | Client: 127.0.0.1
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - [req-1762246707751] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - [req-1762246707491] GET /api/health | Status: 200 | Duration: 0.45s
+2025-11-04 14:28:27 - aeo_geo_dashboard - INFO - [req-1762246707751] GET /api/dashboard/home | Status: 200 | Duration: 0.19s
+2025-11-04 14:28:30 - aeo_geo_dashboard - INFO - [req-1762246710358] GET /api/dashboard/explore | Client: 127.0.0.1
+2025-11-04 14:28:30 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 14:28:30 - aeo_geo_dashboard - INFO - Explore dashboard generated with 20 rows
+2025-11-04 14:28:30 - aeo_geo_dashboard - INFO - [req-1762246710358] GET /api/dashboard/explore | Status: 200 | Duration: 0.16s
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:13:02 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 19:13:03 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 19:13:03 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - [req-1762263801585] GET /api/health | Client: 127.0.0.1
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - [req-1762263801587] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - [req-1762263801585] GET /api/health | Status: 200 | Duration: 0.12s
+2025-11-04 19:13:21 - aeo_geo_dashboard - INFO - [req-1762263801587] GET /api/dashboard/home | Status: 200 | Duration: 0.12s
+2025-11-04 19:15:00 - aeo_geo_dashboard - INFO - [req-1762263900172] GET /api/health | Client: 127.0.0.1
+2025-11-04 19:15:00 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:15:00 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 19:15:00 - aeo_geo_dashboard - INFO - [req-1762263900172] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 19:26:58 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 19:26:58 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 19:26:59 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 19:32:25 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 19:32:25 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:32:26 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 19:32:27 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 19:32:27 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 19:32:45 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 19:32:45 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 19:32:46 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-04 19:32:47 - aeo_geo_dashboard - INFO - [req-1762264967618] GET /docs | Client: 127.0.0.1
+2025-11-04 19:32:47 - aeo_geo_dashboard - INFO - [req-1762264967618] GET /docs | Status: 200 | Duration: 0.00s
+2025-11-04 19:32:47 - aeo_geo_dashboard - INFO - [req-1762264967782] GET /openapi.json | Client: 127.0.0.1
+2025-11-04 19:32:47 - aeo_geo_dashboard - INFO - [req-1762264967782] GET /openapi.json | Status: 200 | Duration: 0.02s
+2025-11-04 19:32:54 - aeo_geo_dashboard - INFO - [req-1762264974099] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-04 19:32:54 - aeo_geo_dashboard - INFO - Analytics endpoint called
+2025-11-04 19:32:54 - aeo_geo_dashboard - INFO - [req-1762264974099] GET /api/dashboard/analytics | Status: 200 | Duration: 0.00s
+2025-11-04 19:32:57 - aeo_geo_dashboard - INFO - [req-1762264977597] GET /docs | Client: 127.0.0.1
+2025-11-04 19:32:57 - aeo_geo_dashboard - INFO - [req-1762264977597] GET /docs | Status: 200 | Duration: 0.00s
+2025-11-04 19:32:57 - aeo_geo_dashboard - INFO - [req-1762264977738] GET /openapi.json | Client: 127.0.0.1
+2025-11-04 19:32:57 - aeo_geo_dashboard - INFO - [req-1762264977738] GET /openapi.json | Status: 200 | Duration: 0.00s
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - [req-1762264978084] GET /api/health | Client: 127.0.0.1
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - [req-1762264978085] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - [req-1762264978084] GET /api/health | Status: 200 | Duration: 0.14s
+2025-11-04 19:32:58 - aeo_geo_dashboard - INFO - [req-1762264978085] GET /api/dashboard/home | Status: 200 | Duration: 0.14s
+2025-11-04 19:37:29 - aeo_geo_dashboard - INFO - [req-1762265249195] GET /api/health | Client: 127.0.0.1
+2025-11-04 19:37:29 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:37:29 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 19:37:29 - aeo_geo_dashboard - INFO - [req-1762265249195] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - [req-1762265251294] GET /api/health | Client: 127.0.0.1
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - [req-1762265251298] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - [req-1762265251294] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 19:37:31 - aeo_geo_dashboard - INFO - [req-1762265251298] GET /api/dashboard/home | Status: 200 | Duration: 0.15s
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - [req-1762272638702] GET /api/health | Client: 127.0.0.1
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - [req-1762272638849] GET /api/dashboard/home | Client: 127.0.0.1
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - Home dashboard generated successfully
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - [req-1762272638702] GET /api/health | Status: 200 | Duration: 0.24s
+2025-11-04 21:40:38 - aeo_geo_dashboard - INFO - [req-1762272638849] GET /api/dashboard/home | Status: 200 | Duration: 0.10s
+2025-11-04 21:40:41 - aeo_geo_dashboard - INFO - [req-1762272641287] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-04 21:40:41 - aeo_geo_dashboard - INFO - Analytics endpoint called
+2025-11-04 21:40:41 - aeo_geo_dashboard - INFO - [req-1762272641287] GET /api/dashboard/analytics | Status: 200 | Duration: 0.00s
+2025-11-04 22:00:19 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-04 22:00:19 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-04 22:00:20 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 02:56:30 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 02:57:00 - aeo_geo_dashboard - INFO - [req-1762291620244] GET /api/health | Client: 127.0.0.1
+2025-11-05 02:57:00 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 02:57:00 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 02:57:00 - aeo_geo_dashboard - INFO - [req-1762291620245] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 02:57:00 - aeo_geo_dashboard - ERROR - [req-1762291620245] Unhandled exception: "['sourcenormalized', 'scorenorm'] not in index"
+2025-11-05 02:57:00 - aeo_geo_dashboard - INFO - [req-1762291620244] GET /api/health | Status: 200 | Duration: 0.09s
+2025-11-05 02:57:01 - aeo_geo_dashboard - INFO - [req-1762291621339] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 02:57:01 - aeo_geo_dashboard - ERROR - [req-1762291621339] Unhandled exception: "['sourcenormalized', 'scorenorm'] not in index"
+2025-11-05 02:57:03 - aeo_geo_dashboard - INFO - [req-1762291623425] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 02:57:03 - aeo_geo_dashboard - ERROR - [req-1762291623425] Unhandled exception: "['sourcenormalized', 'scorenorm'] not in index"
+2025-11-05 02:57:07 - aeo_geo_dashboard - INFO - [req-1762291627536] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 02:57:07 - aeo_geo_dashboard - ERROR - [req-1762291627536] Unhandled exception: "['sourcenormalized', 'scorenorm'] not in index"
+2025-11-05 02:59:30 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-05 02:59:30 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - [req-1762291814597] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - [req-1762291814598] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - [req-1762291814597] GET /api/health | Status: 200 | Duration: 0.14s
+2025-11-05 03:00:14 - aeo_geo_dashboard - INFO - [req-1762291814598] GET /api/dashboard/analytics | Status: 200 | Duration: 0.13s
+2025-11-05 03:00:32 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-05 03:00:32 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:00:33 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 03:00:39 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-05 03:00:39 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:00:47 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - [req-1762291867579] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - [req-1762291867581] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - [req-1762291867579] GET /api/health | Status: 200 | Duration: 0.13s
+2025-11-05 03:01:07 - aeo_geo_dashboard - INFO - [req-1762291867581] GET /api/dashboard/analytics | Status: 200 | Duration: 0.13s
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - [req-1762291890662] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - [req-1762291890664] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - [req-1762291890662] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:01:30 - aeo_geo_dashboard - INFO - [req-1762291890664] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 03:03:40 - aeo_geo_dashboard - INFO - [req-1762292020928] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:03:40 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:03:40 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:03:40 - aeo_geo_dashboard - INFO - [req-1762292020931] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:03:40 - aeo_geo_dashboard - INFO - [req-1762292020928] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:03:41 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:03:41 - aeo_geo_dashboard - INFO - [req-1762292020931] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 03:04:25 - aeo_geo_dashboard - INFO - [req-1762292065959] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:04:25 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:04:25 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:04:25 - aeo_geo_dashboard - INFO - [req-1762292065962] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:04:25 - aeo_geo_dashboard - INFO - [req-1762292065959] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:04:26 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:04:26 - aeo_geo_dashboard - INFO - [req-1762292065962] GET /api/dashboard/analytics | Status: 200 | Duration: 0.18s
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - [req-1762292103072] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - [req-1762292103076] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - [req-1762292103072] GET /api/health | Status: 200 | Duration: 0.01s
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:05:03 - aeo_geo_dashboard - INFO - [req-1762292103076] GET /api/dashboard/analytics | Status: 200 | Duration: 0.16s
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - [req-1762292310504] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - [req-1762292310664] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - [req-1762292310504] GET /api/health | Status: 200 | Duration: 0.16s
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:08:30 - aeo_geo_dashboard - INFO - [req-1762292310664] GET /api/dashboard/analytics | Status: 200 | Duration: 0.13s
+2025-11-05 03:13:51 - aeo_geo_dashboard - INFO - [req-1762292631198] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:13:51 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:13:51 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:13:51 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:13:51 - aeo_geo_dashboard - INFO - [req-1762292631198] GET /api/health | Status: 200 | Duration: 0.19s
+2025-11-05 03:16:34 - aeo_geo_dashboard - INFO - [req-1762292794425] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:16:34 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:16:34 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:16:34 - aeo_geo_dashboard - INFO - [req-1762292794425] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:19:15 - aeo_geo_dashboard - INFO - [req-1762292955346] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:19:15 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:19:15 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:19:15 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:19:15 - aeo_geo_dashboard - INFO - [req-1762292955346] GET /api/health | Status: 200 | Duration: 0.14s
+2025-11-05 03:20:43 - aeo_geo_dashboard - INFO - [req-1762293043000] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:20:43 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:20:43 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:20:43 - aeo_geo_dashboard - INFO - [req-1762293043000] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:27:03 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-05 03:27:03 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:27:05 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - [req-1762293442792] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - [req-1762293442794] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - [req-1762293442792] GET /api/health | Status: 200 | Duration: 0.15s
+2025-11-05 03:27:22 - aeo_geo_dashboard - INFO - [req-1762293442794] GET /api/dashboard/analytics | Status: 200 | Duration: 0.15s
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - [req-1762293455299] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - [req-1762293455303] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - [req-1762293455299] GET /api/health | Status: 200 | Duration: 0.13s
+2025-11-05 03:27:35 - aeo_geo_dashboard - INFO - [req-1762293455303] GET /api/dashboard/analytics | Status: 200 | Duration: 0.12s
+2025-11-05 03:29:22 - aeo_geo_dashboard - INFO - [req-1762293562710] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:29:22 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:29:22 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:29:22 - aeo_geo_dashboard - INFO - [req-1762293562710] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:35:55 - aeo_geo_dashboard - INFO - [req-1762293955580] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:35:55 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:35:55 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:35:55 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:35:55 - aeo_geo_dashboard - INFO - [req-1762293955580] GET /api/health | Status: 200 | Duration: 0.18s
+2025-11-05 03:39:20 - aeo_geo_dashboard - INFO - [req-1762294160659] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:39:20 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:39:20 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:39:20 - aeo_geo_dashboard - INFO - [req-1762294160659] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - [req-1762294757437] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - [req-1762294757631] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - [req-1762294757437] GET /api/health | Status: 200 | Duration: 0.19s
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:49:17 - aeo_geo_dashboard - INFO - [req-1762294757631] GET /api/dashboard/analytics | Status: 200 | Duration: 0.09s
+2025-11-05 03:52:59 - aeo_geo_dashboard - INFO - [req-1762294979475] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:52:59 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:52:59 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:52:59 - aeo_geo_dashboard - INFO - [req-1762294979475] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:54:15 - aeo_geo_dashboard - INFO - [req-1762295055436] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:54:15 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:54:15 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:54:15 - aeo_geo_dashboard - INFO - [req-1762295055436] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:59:16 - aeo_geo_dashboard - INFO - [req-1762295356755] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:59:16 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 03:59:16 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 03:59:16 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:59:16 - aeo_geo_dashboard - INFO - [req-1762295356755] GET /api/health | Status: 200 | Duration: 0.17s
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - [req-1762295379255] GET /api/health | Client: 127.0.0.1
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - [req-1762295379258] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - [req-1762295379255] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 03:59:39 - aeo_geo_dashboard - INFO - [req-1762295379258] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 04:03:42 - aeo_geo_dashboard - INFO - [req-1762295622941] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:03:42 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:03:42 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:03:42 - aeo_geo_dashboard - INFO - [req-1762295622941] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:06:59 - aeo_geo_dashboard - INFO - [req-1762295819059] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:06:59 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:06:59 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:06:59 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:06:59 - aeo_geo_dashboard - INFO - [req-1762295819059] GET /api/health | Status: 200 | Duration: 0.26s
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - [req-1762295898339] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - [req-1762295898341] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - [req-1762295898339] GET /api/health | Status: 200 | Duration: 0.13s
+2025-11-05 04:08:18 - aeo_geo_dashboard - INFO - [req-1762295898341] GET /api/dashboard/analytics | Status: 200 | Duration: 0.13s
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - [req-1762296116320] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - [req-1762296116320] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - [req-1762296116324] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:11:56 - aeo_geo_dashboard - INFO - [req-1762296116324] GET /api/dashboard/analytics | Status: 200 | Duration: 0.16s
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - [req-1762296143381] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - [req-1762296143543] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - [req-1762296143381] GET /api/health | Status: 200 | Duration: 0.16s
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:12:23 - aeo_geo_dashboard - INFO - [req-1762296143543] GET /api/dashboard/analytics | Status: 200 | Duration: 0.10s
+2025-11-05 04:14:13 - aeo_geo_dashboard - INFO - [req-1762296253721] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:14:13 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:14:13 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:14:13 - aeo_geo_dashboard - INFO - [req-1762296253721] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:15:41 - aeo_geo_dashboard - INFO - [req-1762296341275] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:15:41 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:15:41 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:15:41 - aeo_geo_dashboard - INFO - [req-1762296341275] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - [req-1762296345441] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - [req-1762296345444] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - [req-1762296345441] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:15:45 - aeo_geo_dashboard - INFO - [req-1762296345444] GET /api/dashboard/analytics | Status: 200 | Duration: 0.11s
+2025-11-05 04:16:51 - aeo_geo_dashboard - INFO - [req-1762296411193] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:16:51 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:16:51 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:16:51 - aeo_geo_dashboard - INFO - [req-1762296411193] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:22:16 - aeo_geo_dashboard - INFO - [req-1762296736298] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:22:16 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:22:16 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:22:16 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:22:16 - aeo_geo_dashboard - INFO - [req-1762296736298] GET /api/health | Status: 200 | Duration: 0.23s
+2025-11-05 04:25:54 - aeo_geo_dashboard - INFO - [req-1762296954342] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:25:54 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:25:54 - aeo_geo_dashboard - INFO - [req-1762296954342] GET /api/dashboard/analytics | Status: 200 | Duration: 0.13s
+2025-11-05 04:27:03 - aeo_geo_dashboard - INFO - [req-1762297023801] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:27:03 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:27:03 - aeo_geo_dashboard - INFO - [req-1762297023801] GET /api/dashboard/analytics | Status: 200 | Duration: 0.16s
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - [req-1762297032138] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - [req-1762297032140] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - [req-1762297032138] GET /api/health | Status: 200 | Duration: 0.14s
+2025-11-05 04:27:12 - aeo_geo_dashboard - INFO - [req-1762297032140] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - [req-1762297035380] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - [req-1762297035380] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - [req-1762297035383] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:27:15 - aeo_geo_dashboard - INFO - [req-1762297035383] GET /api/dashboard/analytics | Status: 200 | Duration: 0.11s
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - [req-1762297047576] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - [req-1762297047773] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - [req-1762297047576] GET /api/health | Status: 200 | Duration: 0.30s
+2025-11-05 04:27:27 - aeo_geo_dashboard - INFO - [req-1762297047773] GET /api/dashboard/analytics | Status: 200 | Duration: 0.10s
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - [req-1762297078401] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - [req-1762297078404] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - [req-1762297078401] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:27:58 - aeo_geo_dashboard - INFO - [req-1762297078404] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - [req-1762297261125] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - [req-1762297261127] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - [req-1762297261125] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:31:01 - aeo_geo_dashboard - INFO - [req-1762297261127] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - [req-1762297308571] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - [req-1762297308573] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - [req-1762297308571] GET /api/health | Status: 200 | Duration: 0.12s
+2025-11-05 04:31:48 - aeo_geo_dashboard - INFO - [req-1762297308573] GET /api/dashboard/analytics | Status: 200 | Duration: 0.12s
+2025-11-05 04:40:32 - aeo_geo_dashboard - INFO - [req-1762297832898] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:40:32 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:40:33 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:40:33 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:40:33 - aeo_geo_dashboard - INFO - [req-1762297832898] GET /api/health | Status: 200 | Duration: 0.19s
+2025-11-05 04:46:00 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-05 04:46:00 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:46:02 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 04:46:19 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Shutting down...
+2025-11-05 04:46:19 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - AEO/GEO Dashboard API Starting...
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - Version: 1.0.0
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - Debug Mode: False
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - CORS Origins: ['http://localhost:3000', 'http://localhost:3001']
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - ============================================================
+2025-11-05 04:46:21 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:46:22 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:46:22 - aeo_geo_dashboard - INFO - ✓ Data loaded successfully on startup
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - [req-1762298462208] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - [req-1762298462211] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - [req-1762298462208] GET /api/health | Status: 200 | Duration: 0.11s
+2025-11-05 04:51:02 - aeo_geo_dashboard - INFO - [req-1762298462211] GET /api/dashboard/analytics | Status: 200 | Duration: 0.10s
+2025-11-05 04:51:10 - aeo_geo_dashboard - INFO - [req-1762298470987] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 04:51:11 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:51:11 - aeo_geo_dashboard - INFO - [req-1762298470987] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 04:51:37 - aeo_geo_dashboard - INFO - [req-1762298497884] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:51:37 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 04:51:38 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 04:51:38 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:51:38 - aeo_geo_dashboard - INFO - [req-1762298498057] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:51:38 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:51:38 - aeo_geo_dashboard - INFO - [req-1762298497884] GET /api/health | Status: 200 | Duration: 0.30s
+2025-11-05 04:51:38 - aeo_geo_dashboard - INFO - [req-1762298498057] GET /api/dashboard/analytics | Status: 200 | Duration: 0.13s
+2025-11-05 04:51:44 - aeo_geo_dashboard - INFO - [req-1762298504625] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 04:51:44 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:51:44 - aeo_geo_dashboard - INFO - [req-1762298504625] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 04:51:58 - aeo_geo_dashboard - INFO - [req-1762298518574] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 04:51:58 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:51:58 - aeo_geo_dashboard - INFO - [req-1762298518574] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 04:52:25 - aeo_geo_dashboard - INFO - [req-1762298545055] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 04:52:25 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:52:25 - aeo_geo_dashboard - INFO - [req-1762298545055] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - [req-1762298548502] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - [req-1762298548502] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - [req-1762298548506] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:52:28 - aeo_geo_dashboard - INFO - [req-1762298548506] GET /api/dashboard/analytics | Status: 200 | Duration: 0.16s
+2025-11-05 04:55:36 - aeo_geo_dashboard - INFO - [req-1762298736640] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:55:36 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:55:36 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:55:36 - aeo_geo_dashboard - INFO - [req-1762298736640] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:55:38 - aeo_geo_dashboard - INFO - [req-1762298738972] GET /api/health | Client: 127.0.0.1
+2025-11-05 04:55:38 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 04:55:38 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 04:55:38 - aeo_geo_dashboard - INFO - [req-1762298738972] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 04:55:38 - aeo_geo_dashboard - INFO - [req-1762298738976] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 04:55:39 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 04:55:39 - aeo_geo_dashboard - INFO - [req-1762298738976] GET /api/dashboard/analytics | Status: 200 | Duration: 0.16s
+2025-11-05 05:00:29 - aeo_geo_dashboard - INFO - [req-1762299029842] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:00:29 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:00:29 - aeo_geo_dashboard - INFO - [req-1762299029842] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:00:32 - aeo_geo_dashboard - INFO - [req-1762299032583] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:00:32 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 05:00:32 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 05:00:32 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:00:32 - aeo_geo_dashboard - INFO - [req-1762299032583] GET /api/health | Status: 200 | Duration: 0.13s
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - [req-1762299034097] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - [req-1762299034099] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - [req-1762299034097] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - [req-1762299034099] GET /api/dashboard/analytics | Status: 200 | Duration: 0.11s
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - [req-1762299034281] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:00:34 - aeo_geo_dashboard - INFO - [req-1762299034281] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.10s
+2025-11-05 05:03:21 - aeo_geo_dashboard - INFO - [req-1762299201400] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:03:21 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:03:21 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:03:21 - aeo_geo_dashboard - INFO - [req-1762299201400] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:05:24 - aeo_geo_dashboard - INFO - [req-1762299324764] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:05:24 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:05:24 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:05:24 - aeo_geo_dashboard - INFO - [req-1762299324764] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:05:52 - aeo_geo_dashboard - INFO - [req-1762299352621] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:05:52 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:05:52 - aeo_geo_dashboard - INFO - [req-1762299352621] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:07:16 - aeo_geo_dashboard - INFO - [req-1762299436482] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:16 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:16 - aeo_geo_dashboard - INFO - [req-1762299436482] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.16s
+2025-11-05 05:07:19 - aeo_geo_dashboard - INFO - [req-1762299439141] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:19 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:19 - aeo_geo_dashboard - INFO - [req-1762299439141] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:07:22 - aeo_geo_dashboard - INFO - [req-1762299442134] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:22 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:22 - aeo_geo_dashboard - INFO - [req-1762299442134] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.13s
+2025-11-05 05:07:25 - aeo_geo_dashboard - INFO - [req-1762299445901] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:26 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:26 - aeo_geo_dashboard - INFO - [req-1762299445901] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:07:28 - aeo_geo_dashboard - INFO - [req-1762299448165] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:28 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:28 - aeo_geo_dashboard - INFO - [req-1762299448165] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:07:35 - aeo_geo_dashboard - INFO - [req-1762299455133] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:35 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:35 - aeo_geo_dashboard - INFO - [req-1762299455133] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.10s
+2025-11-05 05:07:38 - aeo_geo_dashboard - INFO - [req-1762299458045] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:07:38 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:07:38 - aeo_geo_dashboard - INFO - [req-1762299458045] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.13s
+2025-11-05 05:12:07 - aeo_geo_dashboard - INFO - [req-1762299727780] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:12:07 - aeo_geo_dashboard - INFO - Loading Excel from /home/mohit/Desktop/asvaai/amazon/backend/data/sheet.xlsx
+2025-11-05 05:12:07 - aeo_geo_dashboard - INFO - Loaded 99 rows | 45 unique prompts
+2025-11-05 05:12:07 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:12:07 - aeo_geo_dashboard - INFO - [req-1762299727780] GET /api/health | Status: 200 | Duration: 0.16s
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - [req-1762299729767] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - [req-1762299729767] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - [req-1762299729771] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - [req-1762299729771] GET /api/dashboard/analytics | Status: 200 | Duration: 0.14s
+2025-11-05 05:12:09 - aeo_geo_dashboard - INFO - [req-1762299729964] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:10 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:10 - aeo_geo_dashboard - INFO - [req-1762299729964] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.10s
+2025-11-05 05:12:13 - aeo_geo_dashboard - INFO - [req-1762299733590] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:13 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:13 - aeo_geo_dashboard - INFO - [req-1762299733590] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:12:15 - aeo_geo_dashboard - INFO - [req-1762299735226] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:15 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:15 - aeo_geo_dashboard - INFO - [req-1762299735226] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 05:12:16 - aeo_geo_dashboard - INFO - [req-1762299736848] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:16 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:16 - aeo_geo_dashboard - INFO - [req-1762299736848] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 05:12:18 - aeo_geo_dashboard - INFO - [req-1762299738791] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:18 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:18 - aeo_geo_dashboard - INFO - [req-1762299738791] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:12:20 - aeo_geo_dashboard - INFO - [req-1762299740751] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:20 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:20 - aeo_geo_dashboard - INFO - [req-1762299740751] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 05:12:42 - aeo_geo_dashboard - INFO - [req-1762299762954] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:43 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:43 - aeo_geo_dashboard - INFO - [req-1762299762954] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 05:12:50 - aeo_geo_dashboard - INFO - [req-1762299770700] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:12:50 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:12:50 - aeo_geo_dashboard - INFO - [req-1762299770700] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - [req-1762299854085] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - [req-1762299854088] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - [req-1762299854085] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - [req-1762299854088] GET /api/dashboard/analytics | Status: 200 | Duration: 0.15s
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - [req-1762299854315] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:14:14 - aeo_geo_dashboard - INFO - [req-1762299854315] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:15:04 - aeo_geo_dashboard - INFO - [req-1762299904209] GET /docs | Client: 127.0.0.1
+2025-11-05 05:15:04 - aeo_geo_dashboard - INFO - [req-1762299904209] GET /docs | Status: 200 | Duration: 0.00s
+2025-11-05 05:15:04 - aeo_geo_dashboard - INFO - [req-1762299904372] GET /openapi.json | Client: 127.0.0.1
+2025-11-05 05:15:04 - aeo_geo_dashboard - INFO - [req-1762299904372] GET /openapi.json | Status: 200 | Duration: 0.04s
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - [req-1762299939841] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - [req-1762299939844] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - [req-1762299939841] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:15:39 - aeo_geo_dashboard - INFO - [req-1762299939844] GET /api/dashboard/analytics | Status: 200 | Duration: 0.12s
+2025-11-05 05:15:40 - aeo_geo_dashboard - INFO - [req-1762299940047] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:15:40 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:15:40 - aeo_geo_dashboard - INFO - [req-1762299940047] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:15:50 - aeo_geo_dashboard - INFO - [req-1762299950437] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:15:50 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:15:50 - aeo_geo_dashboard - INFO - [req-1762299950437] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 05:15:52 - aeo_geo_dashboard - INFO - [req-1762299952531] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:15:52 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:15:52 - aeo_geo_dashboard - INFO - [req-1762299952531] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.18s
+2025-11-05 05:15:54 - aeo_geo_dashboard - INFO - [req-1762299954835] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:15:54 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:15:54 - aeo_geo_dashboard - INFO - [req-1762299954835] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:15:57 - aeo_geo_dashboard - INFO - [req-1762299957299] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:15:57 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:15:57 - aeo_geo_dashboard - INFO - [req-1762299957299] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - [req-1762299960679] GET /api/health | Client: 127.0.0.1
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - Returning cached DataFrame
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - Health check passed
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - [req-1762299960679] GET /api/health | Status: 200 | Duration: 0.00s
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - [req-1762299960686] GET /api/dashboard/analytics | Client: 127.0.0.1
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - [req-1762299960686] GET /api/dashboard/analytics | Status: 200 | Duration: 0.12s
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - [req-1762299960868] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:16:00 - aeo_geo_dashboard - INFO - [req-1762299960868] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:17:27 - aeo_geo_dashboard - INFO - [req-1762300047185] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:27 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:27 - aeo_geo_dashboard - INFO - [req-1762300047185] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.12s
+2025-11-05 05:17:31 - aeo_geo_dashboard - INFO - [req-1762300051179] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:31 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:31 - aeo_geo_dashboard - INFO - [req-1762300051179] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.16s
+2025-11-05 05:17:38 - aeo_geo_dashboard - INFO - [req-1762300058380] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:38 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:38 - aeo_geo_dashboard - INFO - [req-1762300058380] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:17:40 - aeo_geo_dashboard - INFO - [req-1762300060634] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:40 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:40 - aeo_geo_dashboard - INFO - [req-1762300060634] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:17:43 - aeo_geo_dashboard - INFO - [req-1762300063547] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:43 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:43 - aeo_geo_dashboard - INFO - [req-1762300063547] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s
+2025-11-05 05:17:46 - aeo_geo_dashboard - INFO - [req-1762300066299] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:46 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:46 - aeo_geo_dashboard - INFO - [req-1762300066299] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.09s
+2025-11-05 05:17:48 - aeo_geo_dashboard - INFO - [req-1762300068985] GET /api/dashboard/analytics/marketshare | Client: 127.0.0.1
+2025-11-05 05:17:49 - aeo_geo_dashboard - INFO - Loaded Excel data with 1591 rows
+2025-11-05 05:17:49 - aeo_geo_dashboard - INFO - [req-1762300068985] GET /api/dashboard/analytics/marketshare | Status: 200 | Duration: 0.11s

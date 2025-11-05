@@ -1,0 +1,381 @@
+Metadata-Version: 2.4
+Name: aeo-geo-dashboard-api
+Version: 1.0.0
+Summary: FastAPI backend for AEO/GEO Analytics Dashboard
+Author-email: Your Name <your.email@example.com>
+License-Expression: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi==0.104.1
+Requires-Dist: uvicorn[standard]==0.24.0
+Requires-Dist: pydantic==2.4.2
+Requires-Dist: pydantic-settings==2.0.3
+Requires-Dist: pandas==2.1.3
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: python-multipart==0.0.6
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: ipykernel>=7.1.0
+Provides-Extra: dev
+Requires-Dist: pytest==7.4.3; extra == "dev"
+Requires-Dist: pytest-asyncio==0.21.1; extra == "dev"
+Requires-Dist: httpx==0.25.1; extra == "dev"
+Requires-Dist: black==23.11.0; extra == "dev"
+Requires-Dist: ruff==0.1.6; extra == "dev"
+
+
+---
+
+## **Final Tech Stack**
+
+## **Backend**
+
+* **Framework** : FastAPI (Python 3.12)
+* **Data Processing** : Pandas + NumPy
+* **Environment Management** : UV (package manager), pyproject.toml
+* **Database** : PostgreSQL (future-ready, for 5000+ rows with caching)
+* **Async Runtime** : Uvicorn
+* **Validation** : Pydantic v2 (for response schemas)
+* **Logging** : Python logging module
+
+## **Frontend** (for reference, we'll implement later)
+
+* **Framework** : Next.js (React) + TypeScript
+* **UI** : TailwindCSS + ShadCN
+* **Data Fetching** : React Query (TanStack Query)
+* **State Management** : Zustand
+* **Tables** : TanStack Table (React Table)
+* **Charts** : Recharts + ECharts
+* **Animations** : Framer Motion
+
+---
+
+## **Backend Folder Structure**
+
+<pre class="not-prose w-full rounded font-mono text-sm font-extralight"><div class="codeWrapper text-light selection:text-super selection:bg-super/10 my-md relative flex flex-col rounded font-mono text-sm font-normal bg-subtler"><div class="translate-y-xs -translate-x-xs bottom-xl mb-xl flex h-0 items-start justify-end md:sticky md:top-[100px]"><div class="overflow-hidden rounded-full border-subtlest ring-subtlest divide-subtlest bg-base"><div class="border-subtlest ring-subtlest divide-subtlest bg-subtler"><button data-testid="toggle-wrap-code-button" aria-label="No line wrap" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-text-wrap-disabled"></use></svg></div></div></button><button data-testid="copy-code-button" aria-label="Copy code" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-copy"></use></svg></div></div></button></div></div></div><div class="-mt-xl"><div><div data-testid="code-language-indicator" class="text-quiet bg-subtle py-xs px-sm inline-block rounded-br rounded-tl-[3px] font-thin">text</div></div><div><span><code><span><span>amazon/
+</span></span><span>└── backend/
+</span><span>    ├── data/
+</span><span>    │   └── sheet.xlsx                    # Input data (will be amazon.xlsx with 5000+ rows)
+</span><span>    ├── app/
+</span><span>    │   ├── __init__.py
+</span><span>    │   ├── core/
+</span><span>    │   │   ├── __init__.py
+</span><span>    │   │   ├── config.py                 # Config, paths, constants
+</span><span>    │   │   └── logger.py                 # Logging setup
+</span><span>    │   ├── models/
+</span><span>    │   │   ├── __init__.py
+</span><span>    │   │   └── schemas.py                # Pydantic response schemas
+</span><span>    │   ├── services/
+</span><span>    │   │   ├── __init__.py
+</span><span>    │   │   ├── data_loader.py            # Load & cache Excel → DataFrame
+</span><span>    │   │   ├── metrics.py                # KPI calculations (G-SoV, NRS, etc.)
+</span><span>    │   │   ├── filters.py                # Apply filters to data
+</span><span>    │   │   ├── analysis.py               # Exploratory analysis (heatmap, comparisons)
+</span><span>    │   │   └── calculations.py           # RCA + composite scoring
+</span><span>    │   ├── routes/
+</span><span>    │   │   ├── __init__.py
+</span><span>    │   │   ├── home.py                   # /api/dashboard/home
+</span><span>    │   │   ├── explore.py                # /api/dashboard/explore
+</span><span>    │   │   ├── compare.py                # /api/dashboard/compare
+</span><span>    │   │   └── prompt_detail.py          # /api/prompt/{prompt_id}
+</span><span>    │   └── utils/
+</span><span>    │       ├── __init__.py
+</span><span>    │       └── helpers.py                # Utility functions (normalization, parsing, etc.)
+</span><span>    ├── main.py                           # FastAPI app initialization + routes
+</span><span>    ├── requirements.txt                  # Dependencies (legacy, we'll use pyproject.toml)
+</span><span>    ├── pyproject.toml                    # UV package management
+</span><span>    ├── .env                              # Environment variables (file paths, constants)
+</span><span>    ├── .gitignore
+</span><span>    ├── Dockerfile                        # For production deployment
+</span><span>    └── docker-compose.yml                # For local dev with PostgreSQL (optional for now)
+</span><span></span></code></span></div></div></div></pre>
+
+---
+
+## **Python Modules (Number & Purpose)**
+
+**Total: 10 Python files** (focused, modular, scalable)
+
+| #  | File                | Purpose                                                                                                                                                           |
+| -- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | `config.py`       | File paths, logging config, constants (max_rank=5, delivery thresholds, etc.)                                                                                     |
+| 2  | `logger.py`       | Structured logging setup                                                                                                                                          |
+| 3  | `schemas.py`      | Pydantic response models (KPI response, explore response, comparison response, etc.)                                                                              |
+| 4  | `data_loader.py`  | Load Excel → DataFrame, handle missing values, add timestamps if needed,**caching**for 5000+ rows                                                          |
+| 5  | `metrics.py`      | Calculate: G-SoV, NRS, Rank Presence Score, Price Competitiveness, Delivery Strength (all**per-prompt**and**global**variants)                         |
+| 6  | `filters.py`      | Apply query filters (product, source, date range, rank range) to DataFrame                                                                                        |
+| 7  | `analysis.py`     | Generate: heatmap data, product performance table, competitive comparisons, loss reasons                                                                          |
+| 8  | `calculations.py` | RCA + composite scoring: Attribute Completeness (stubbed for now), Review Density (stubbed), Citation Parity (stubbed), Freshness (stubbed), combined rank driver |
+| 9  | `helpers.py`      | Utilities: normalize source names, parse extra JSON, calculate percentile ranks, badge logic                                                                      |
+| 10 | `main.py`         | FastAPI app setup + route initialization (imports from routes/*.py)                                                                                               |
+
+---
+
+## **FastAPI Endpoints (4 Primary + 1 Utility)**
+
+**Total: 5 Endpoints** (Hybrid approach for optimal network efficiency)
+
+## **1. GET `/api/dashboard/home`**
+
+ **Purpose** : Executive summary KPIs + sparklines
+
+ **Returns** :
+
+* Overall G-SoV (global & per-platform breakdown)
+* Average rank position (overall)
+* Rank Presence Score (0-10 scale)
+* Price Competitiveness Rate (% of times cheapest)
+* Delivery Strength Score (avg bucket)
+* Prompt Coverage (% of prompts you appear in)
+* Top 5 loss reasons (why you're not rank 1)
+* Trend sparklines (if available from timestamps)
+* Sample metrics by source (Amazon, Flipkart, etc.)
+
+ **Query Params** : None (returns global metrics)
+
+---
+
+## **2. GET `/api/dashboard/explore`**
+
+ **Purpose** : Filtered drilldown analysis + heatmap data
+
+ **Returns** :
+
+* Heatmap data: Product × Source with avg NRS (color intensity)
+* Product performance table (Product | G-SoV | Avg Rank | # Prompts | Price Gap | Delivery Gap)
+* Filtered card list (all cards matching filters)
+* Applied filters summary
+
+ **Query Params** :
+
+* `product`: Filter by product_name (comma-separated for multiple)
+* `source`: Filter by source_normalized (comma-separated)
+* `rank_min`: Minimum rank (default 1)
+* `rank_max`: Maximum rank (default 5)
+* `has_price`: Boolean (only show entries with valid price)
+* `has_delivery`: Boolean (only show entries with valid delivery)
+
+---
+
+## **3. GET `/api/dashboard/compare`**
+
+ **Purpose** : Competitive analysis (Amazon vs Top Competitor)
+
+ **Returns** :
+
+* Head-to-head comparison metrics (Price, Delivery, Rank, Frequency)
+* Win/Lose factor chips (e.g., "Better Price -12%", "Slower Delivery +3 days")
+* Normalized comparison scores (0-10 per metric)
+* Detailed card-level comparison
+
+ **Query Params** :
+
+* `product_name`: (required) Specific product to compare
+* `source1`: (optional, default="amazon") Primary source
+* `source2`: (optional, default=best_competitor) Secondary source
+
+---
+
+## **4. GET `/api/prompt/{prompt_id}`**
+
+ **Purpose** : Detailed view for single prompt
+
+ **Returns** :
+
+* Prompt metadata (product_name, prompt text, platform)
+* All ranked cards for this prompt (sorted by rank)
+* Price stats for this prompt (min, max, median, your price)
+* Why text + citation analysis (stub for now)
+* Sentiment snippets (stub for now)
+
+ **Path Params** :
+
+* `prompt_id`: UUID of the prompt
+
+---
+
+## **5. GET `/api/health`** (Utility)
+
+ **Purpose** : Health check + data validation
+
+ **Returns** :
+
+* Server status: "ok"
+* Data loaded: true/false
+* Total rows: count
+* Last updated: timestamp
+* Data quality: % missing values per column
+
+ **Query Params** : None
+
+---
+
+## **Data Flow & Caching Strategy**
+
+Given your 5000+ row requirement, here's the optimization approach:
+
+<pre class="not-prose w-full rounded font-mono text-sm font-extralight"><div class="codeWrapper text-light selection:text-super selection:bg-super/10 my-md relative flex flex-col rounded font-mono text-sm font-normal bg-subtler"><div class="translate-y-xs -translate-x-xs bottom-xl mb-xl flex h-0 items-start justify-end md:sticky md:top-[100px]"><div class="overflow-hidden rounded-full border-subtlest ring-subtlest divide-subtlest bg-base"><div class="border-subtlest ring-subtlest divide-subtlest bg-subtler"><button data-testid="toggle-wrap-code-button" aria-label="No line wrap" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-text-wrap-disabled"></use></svg></div></div></button><button data-testid="copy-code-button" aria-label="Copy code" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-copy"></use></svg></div></div></button></div></div></div><div class="-mt-xl"><div><div data-testid="code-language-indicator" class="text-quiet bg-subtle py-xs px-sm inline-block rounded-br rounded-tl-[3px] font-thin">text</div></div><div><span><code><span><span>Request → FastAPI Route
+</span></span><span>  ↓
+</span><span>Check Request Params (product, source, rank filters)
+</span><span>  ↓
+</span><span>Get Cached DataFrame (or load fresh from Excel)
+</span><span>  ↓
+</span><span>Apply Filters (data_loader + filters module)
+</span><span>  ↓
+</span><span>Run Calculations (metrics + analysis modules)
+</span><span>  ↓
+</span><span>Format Response (schemas.py Pydantic models)
+</span><span>  ↓
+</span><span>Return JSON
+</span><span></span></code></span></div></div></div></pre>
+
+ **Caching** :
+
+* Load Excel once on startup → in-memory DataFrame
+* Cache expires after 5 min or on `/reload` endpoint (we'll add this)
+* For 5000 rows: ~20MB memory, acceptable
+
+---
+
+## **Calculation Dependencies (Which Module Does What)**
+
+| Calculation                          | Module              | Level                       | Notes                                                 |
+| ------------------------------------ | ------------------- | --------------------------- | ----------------------------------------------------- |
+| **NRS**(Normalized Rank Score) | `metrics.py`      | Per-prompt, then per-source | Uses max_rank per prompt                              |
+| **G-SoV**                      | `metrics.py`      | Global + per-platform       | COUNT(rank≤2                                         |
+| **Rank Presence**              | `metrics.py`      | Per-card, aggregated        | 10/7/4/0 logic, then average                          |
+| **Price Competitiveness**      | `metrics.py`      | Per-prompt                  | Flag: price ≤ p25(price_by_prompt)                   |
+| **Delivery Strength**          | `metrics.py`      | Per-card                    | Bucket: 0-1/2-3/4-7 days → 1.0/0.7/0.3               |
+| **Loss Reasons**               | `analysis.py`     | Global                      | Parse why cards rank lower (price/delivery/data gaps) |
+| **Heatmap**                    | `analysis.py`     | Product × Source           | Group by product_name + source_normalized, avg NRS    |
+| **Competitive Gap**            | `analysis.py`     | Per-product pairs           | Your metric - competitor's metric                     |
+| **RCA Score**                  | `calculations.py` | Per-card/per-prompt         | Composite: 0.25×Attr + 0.2×Delivery + ...           |
+
+---
+
+## **Request/Response Example Flow**
+
+## **Request** : `GET /api/dashboard/home`
+
+## **Response** (JSON):
+
+<pre class="not-prose w-full rounded font-mono text-sm font-extralight"><div class="codeWrapper text-light selection:text-super selection:bg-super/10 my-md relative flex flex-col rounded font-mono text-sm font-normal bg-subtler"><div class="translate-y-xs -translate-x-xs bottom-xl mb-xl flex h-0 items-start justify-end md:sticky md:top-[100px]"><div class="overflow-hidden rounded-full border-subtlest ring-subtlest divide-subtlest bg-base"><div class="border-subtlest ring-subtlest divide-subtlest bg-subtler"><button data-testid="toggle-wrap-code-button" aria-label="Wrap lines" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-text-wrap"></use></svg></div></div></button><button data-testid="copy-code-button" aria-label="Copy code" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-copy"></use></svg></div></div></button></div></div></div><div class="-mt-xl"><div><div data-testid="code-language-indicator" class="text-quiet bg-subtle py-xs px-sm inline-block rounded-br rounded-tl-[3px] font-thin">json</div></div><div><span><code><span class="token token punctuation">{</span><span>
+</span><span></span><span class="token token property">"kpis"</span><span class="token token operator">:</span><span></span><span class="token token punctuation">{</span><span>
+</span><span></span><span class="token token property">"gsov_overall"</span><span class="token token operator">:</span><span></span><span class="token token">0.65</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"gsov_by_platform"</span><span class="token token operator">:</span><span></span><span class="token token punctuation">{</span><span>
+</span><span></span><span class="token token property">"amazon"</span><span class="token token operator">:</span><span></span><span class="token token">0.72</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"flipkart"</span><span class="token token operator">:</span><span></span><span class="token token">0.48</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"ubuy"</span><span class="token token operator">:</span><span></span><span class="token token">0.35</span><span>
+</span><span></span><span class="token token punctuation">}</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"avg_rank_position"</span><span class="token token operator">:</span><span></span><span class="token token">2.3</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"rank_presence_score"</span><span class="token token operator">:</span><span></span><span class="token token">7.2</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"price_competitiveness_rate"</span><span class="token token operator">:</span><span></span><span class="token token">0.68</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"delivery_strength_score"</span><span class="token token operator">:</span><span></span><span class="token token">0.71</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"prompt_coverage_rate"</span><span class="token token operator">:</span><span></span><span class="token token">0.88</span><span>
+</span><span></span><span class="token token punctuation">}</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"loss_reasons"</span><span class="token token operator">:</span><span></span><span class="token token punctuation">[</span><span>
+</span><span></span><span class="token token punctuation">{</span><span class="token token property">"reason"</span><span class="token token operator">:</span><span></span><span class="token token">"Higher Price"</span><span class="token token punctuation">,</span><span></span><span class="token token property">"occurrences"</span><span class="token token operator">:</span><span></span><span class="token token">15</span><span class="token token punctuation">,</span><span></span><span class="token token property">"weight"</span><span class="token token operator">:</span><span></span><span class="token token">0.32</span><span class="token token punctuation">}</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token punctuation">{</span><span class="token token property">"reason"</span><span class="token token operator">:</span><span></span><span class="token token">"Slower Delivery"</span><span class="token token punctuation">,</span><span></span><span class="token token property">"occurrences"</span><span class="token token operator">:</span><span></span><span class="token token">9</span><span class="token token punctuation">,</span><span></span><span class="token token property">"weight"</span><span class="token token operator">:</span><span></span><span class="token token">0.18</span><span class="token token punctuation">}</span><span class="token token punctuation">,</span><span>
+</span>    ...
+<span></span><span class="token token punctuation">]</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"source_breakdown"</span><span class="token token operator">:</span><span></span><span class="token token punctuation">[</span><span>
+</span><span></span><span class="token token punctuation">{</span><span class="token token property">"source"</span><span class="token token operator">:</span><span></span><span class="token token">"amazon"</span><span class="token token punctuation">,</span><span></span><span class="token token property">"cards"</span><span class="token token operator">:</span><span></span><span class="token token">20</span><span class="token token punctuation">,</span><span></span><span class="token token property">"avg_rank"</span><span class="token token operator">:</span><span></span><span class="token token">1.5</span><span class="token token punctuation">,</span><span></span><span class="token token property">"price_competitiveness"</span><span class="token token operator">:</span><span></span><span class="token token">0.75</span><span class="token token punctuation">}</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token punctuation">{</span><span class="token token property">"source"</span><span class="token token operator">:</span><span></span><span class="token token">"flipkart"</span><span class="token token punctuation">,</span><span></span><span class="token token property">"cards"</span><span class="token token operator">:</span><span></span><span class="token token">15</span><span class="token token punctuation">,</span><span></span><span class="token token property">"avg_rank"</span><span class="token token operator">:</span><span></span><span class="token token">2.8</span><span class="token token punctuation">,</span><span></span><span class="token token property">"price_competitiveness"</span><span class="token token operator">:</span><span></span><span class="token token">0.40</span><span class="token token punctuation">}</span><span>
+</span><span></span><span class="token token punctuation">]</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"metadata"</span><span class="token token operator">:</span><span></span><span class="token token punctuation">{</span><span>
+</span><span></span><span class="token token property">"total_prompts"</span><span class="token token operator">:</span><span></span><span class="token token">45</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"total_cards"</span><span class="token token operator">:</span><span></span><span class="token token">99</span><span class="token token punctuation">,</span><span>
+</span><span></span><span class="token token property">"data_freshness"</span><span class="token token operator">:</span><span></span><span class="token token">"2025-11-03T22:00:00Z"</span><span>
+</span><span></span><span class="token token punctuation">}</span><span>
+</span><span></span><span class="token token punctuation">}</span><span>
+</span></code></span></div></div></div></pre>
+
+---
+
+## **Key Backend Decisions & Rationale**
+
+| Decision                          | Rationale                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------ |
+| **4 main endpoints**        | Reduces frontend requests, efficient for 5000 rows, matches dashboard page structure |
+| **Hybrid approach**         | Not too granular (avoids N+1 requests), not too monolithic (flexibility for future)  |
+| **CSV → Pandas in-memory** | Fast for <10K rows; upgrade to PostgreSQL when you hit scale                         |
+| **Pydantic schemas**        | Type safety, auto OpenAPI docs, serialization validation                             |
+| **Separate modules**        | Each module handles 1 concern: loading, filtering, metrics, analysis, RCA            |
+| **No database YET**         | Start simple; PostgreSQL for 5000+ rows is optional in phase 2                       |
+| **Caching in data_loader**  | Simple in-memory cache; use Redis if scaling to 100K+ rows                           |
+
+---
+
+## **Additional Backend Considerations**
+
+## **What We're NOT Building Yet (Future Scope)**
+
+* ❌ Review sentiment analysis (NLP) → stub as 0 for now
+* ❌ Citation parity extraction → parse manually from `extra` column
+* ❌ Attribute completeness validator → stub with mock schema
+* ❌ Freshness scoring → stub if no timestamp column
+* ❌ PDF export / advanced reporting
+
+## **What You Should Add**
+
+1. **`.env` file** (example):
+   <pre class="not-prose w-full rounded font-mono text-sm font-extralight"><div class="codeWrapper text-light selection:text-super selection:bg-super/10 my-md relative flex flex-col rounded font-mono text-sm font-normal bg-subtler"><div class="translate-y-xs -translate-x-xs bottom-xl mb-xl flex h-0 items-start justify-end md:sticky md:top-[100px]"><div class="overflow-hidden rounded-full border-subtlest ring-subtlest divide-subtlest bg-base"><div class="border-subtlest ring-subtlest divide-subtlest bg-subtler"><button data-testid="toggle-wrap-code-button" aria-label="No line wrap" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-text-wrap-disabled"></use></svg></div></div></button><button data-testid="copy-code-button" aria-label="Copy code" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-copy"></use></svg></div></div></button></div></div></div><div class="-mt-xl"><div><div data-testid="code-language-indicator" class="text-quiet bg-subtle py-xs px-sm inline-block rounded-br rounded-tl-[3px] font-thin">text</div></div><div><span><code><span><span>DATA_PATH=./data/sheet.xlsx
+   </span></span><span>LOG_LEVEL=INFO
+   </span><span>CORS_ORIGINS=http://localhost:3000,http://localhost:3001
+   </span><span>CACHE_TTL_SECONDS=300
+   </span><span>MAX_RANK=5
+   </span><span></span></code></span></div></div></div></pre>
+2. **`pyproject.toml` dependencies** :
+
+<pre class="not-prose w-full rounded font-mono text-sm font-extralight"><div class="codeWrapper text-light selection:text-super selection:bg-super/10 my-md relative flex flex-col rounded font-mono text-sm font-normal bg-subtler"><div class="translate-y-xs -translate-x-xs bottom-xl mb-xl flex h-0 items-start justify-end md:sticky md:top-[100px]"><div class="overflow-hidden rounded-full border-subtlest ring-subtlest divide-subtlest bg-base"><div class="border-subtlest ring-subtlest divide-subtlest bg-subtler"><button data-testid="toggle-wrap-code-button" aria-label="No line wrap" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-text-wrap-disabled"></use></svg></div></div></button><button data-testid="copy-code-button" aria-label="Copy code" type="button" class="focus-visible:bg-subtle hover:bg-subtle text-quiet  hover:text-foreground dark:hover:bg-subtle font-sans focus:outline-none outline-none outline-transparent transition duration-300 ease-out select-none items-center relative group/button font-semimedium justify-center text-center items-center rounded-full cursor-pointer active:scale-[0.97] active:duration-150 active:ease-outExpo origin-center whitespace-nowrap inline-flex text-sm h-8 aspect-square" data-state="closed"><div class="flex items-center min-w-0 gap-two justify-center"><div class="flex shrink-0 items-center justify-center size-4"><svg role="img" class="inline-flex fill-current" width="16" height="16"><use xlink:href="#pplx-icon-copy"></use></svg></div></div></button></div></div></div><div class="-mt-xl"><div><div data-testid="code-language-indicator" class="text-quiet bg-subtle py-xs px-sm inline-block rounded-br rounded-tl-[3px] font-thin">text</div></div><div><span><code><span><span>[project]
+   </span></span><span>dependencies = [
+   </span><span>    "fastapi==0.104.1",
+   </span><span>    "uvicorn==0.24.0",
+   </span><span>    "pandas==2.0.3",
+   </span><span>    "numpy==1.24.3",
+   </span><span>    "pydantic==2.4.0",
+   </span><span>    "python-multipart==0.0.6",
+   </span><span>    "openpyxl==3.1.2",
+   </span><span>]
+   </span><span></span></code></span></div></div></div></pre>
+
+1. **Error handling** : Pydantic validation errors, missing file errors, malformed data
+2. **CORS setup** in main.py for frontend requests from `localhost:3000`
+
+---
+
+## **Testing Plan (Swagger UI)**
+
+Once implemented:
+
+1. Start backend: `uvicorn main:app --reload`
+2. Visit `http://localhost:8000/docs` (Swagger UI)
+3. Test each endpoint:
+   * `/api/health` → verify data loads
+   * `/api/dashboard/home` → verify KPI calculations
+   * `/api/dashboard/explore?product=Inverter&source=amazon` → verify filters
+   * `/api/dashboard/compare?product_name=V-Guard Smart Pro...` → verify comparisons
+   * `/api/prompt/{prompt_id}` → verify detail retrieval
+
+---
+
+## **Summary: Strict Adherence Plan**
+
+✅ **10 Python modules** (focused responsibilities)
+
+✅ **5 FastAPI endpoints** (hybrid approach)
+
+✅ **4-tier folder structure** (core → models → services → routes)
+
+✅ **Pydantic schemas** for all responses
+
+✅ **In-memory caching** for 5000+ rows
+
+✅ **No external DB initially** (PostgreSQL in phase 2)
+
+✅ **Modular calculations** (easily testable & extendable)
+
+**Are you ready to proceed with implementation?** Once you confirm, we'll code all 10 modules + main.py with full type hints and detailed docstrings.[planeks**+1**](https://www.planeks.net/python-dashboard-development-framework/)
+
+1. [https://www.planeks.net/python-dashboard-development-framework/](https://www.planeks.net/python-dashboard-development-framework/)
+2. [https://realpython.com/python-dash/](https://realpython.com/python-dash/)

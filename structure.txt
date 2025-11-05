@@ -1,0 +1,37 @@
+amazon/
+└── backend/
+    ├── data/
+    │   └── sheet.xlsx                    # Input data (will be amazon.xlsx with 5000+ rows)
+    ├── app/
+    │   ├── __init__.py
+    │   ├── core/
+    │   │   ├── __init__.py
+    │   │   ├── config.py                 # Config, paths, constants
+    │   │   └── logger.py                 # Logging setup
+    │   ├── models/
+    │   │   ├── __init__.py
+    │   │   └── schemas.py                # Pydantic response schemas
+    │   ├── services/
+    │   │   ├── __init__.py
+    │   │   ├── data_loader.py            # Load & cache Excel → DataFrame
+    │   │   ├── metrics.py                # KPI calculations (G-SoV, NRS, etc.)
+    │   │   ├── filters.py                # Apply filters to data
+    │   │   ├── analysis.py               # Exploratory analysis (heatmap, comparisons)
+    │   │   └── calculations.py           # RCA + composite scoring
+    │   ├── routes/
+    │   │   ├── __init__.py
+    │   │   ├── home.py                   # /api/dashboard/home
+    │   │   ├── explore.py                # /api/dashboard/explore
+    │   │   ├── compare.py                # /api/dashboard/compare
+    │   │   └── prompt_detail.py          # /api/prompt/{prompt_id}
+    │   └── utils/
+    │       ├── __init__.py
+    │       └── helpers.py                # Utility functions (normalization, parsing, etc.)
+    ├── main.py                           # FastAPI app initialization + routes
+    ├── requirements.txt                  # Dependencies (legacy, we'll use pyproject.toml)
+    ├── pyproject.toml                    # UV package management
+    ├── .env                              # Environment variables (file paths, constants)
+    ├── .gitignore
+    ├── Dockerfile                        # For production deployment
+    └── docker-compose.yml                # For local dev with PostgreSQL (optional for now)
+
